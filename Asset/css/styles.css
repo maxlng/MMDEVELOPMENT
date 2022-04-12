@@ -1,0 +1,193 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif ;
+    scroll-behavior: smooth !important;
+}
+
+
+body{
+    background-color: #FEFCFD;
+}
+
+hr{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+   
+
+}
+
+
+
+/* asset color btn etc ... */
+
+.primary{
+    color :#000505;
+}
+
+.vc{
+    color: #5D5D81;
+}
+
+.vf{
+    color: #3B3355;
+}
+
+.bc{
+    color: #BFCDE0;
+}
+
+.bg-vc{
+    background-color: #5D5D81;
+    color: white;
+}
+
+
+
+.bg-vf{
+    background-color: #3B3355;
+    color: white;
+}
+
+.bg-bc{
+    background-color: #BFCDE0;
+   
+}
+
+.btn-vc-acceuil{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #352e4d, #3f375b);
+    box-shadow:  5px 5px 15px #322b48,
+                -5px -5px 15px #443b62; 
+    
+}
+
+.btn-vc-acceuil:hover{
+    color:white;
+   
+}
+
+.btn-vc-rea{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #352e4d, #3f375b);
+  
+   
+    
+}
+
+.btn-vc-rea:hover{
+    color:white;
+   
+}
+
+.rounded{
+    border-radius: 50px;
+}
+
+/*  end asset  */
+
+
+/* page acceuil  */
+
+.acceuil{
+    
+    background-color: #BFCDE0;
+    height: 85vh;
+    
+}
+
+.titre-acceuil{
+    font-family: "Poppins";
+    font-weight: 500;
+    text-shadow: -4px 4px 1px rgba(93,93,129,0.6);
+   
+}
+
+.fond-curvy{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+/* end  acceuil  */
+
+/* prestation */
+
+#prestation{
+    background-color: #3B3355  !important;
+    height: 60vh;
+    margin-bottom: 40rem;
+}
+
+/* end prestation */
+
+/* realisation */
+
+#realisation{
+    margin: auto;
+    padding: 0;
+    background-color: #FEFCFD !important;
+    height: auto;
+}
+
+.card-rea{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 10px;
+}
+
+
+
+/* end realisation */
+
+/* contact */
+
+
+
+/* end contact */
+
+/* footer */
+
+footer{
+    background-color: #000505;
+    height: 25vh;
+}
+
+/* end footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries  */
+@media screen and (max-width : 450px) {
+    .acceuil{
+        height: 85vh;
+    }
+    
+}
+
